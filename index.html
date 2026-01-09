@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Clique Mais - Agência de Marketing Digital em Maputo focada em crescimento real, tráfego pago e visibilidade local." />
+  <meta name="keywords" content="Agência de marketing em Maputo, Gestão de tráfego Maputo, Marketing digital para negócios locais" />
+  <title>Clique Mais | Agência de Marketing Digital em Maputo</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #ffffff; color: #1f2933; line-height: 1.6; }
+    a { text-decoration: none; }
+
+    :root {
+      --dark: #0f172a;
+      --primary: #16a34a;
+      --accent: #f97316;
+      --light: #ffffff;
+      --gray: #64748b;
+    }
+
+    header { background: linear-gradient(135deg, #0f172a, #020617); color: #fff; padding: 90px 20px; }
+    .container { max-width: 1150px; margin: auto; }
+
+    nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 70px; }
+    nav h1 { font-size: 26px; font-weight: 700; }
+    nav a { color: #fff; margin-left: 20px; font-size: 15px; }
+
+    .hero { text-align: center; }
+    .hero h2 { font-size: 44px; font-weight: 700; margin-bottom: 20px; }
+    .hero p { font-size: 18px; max-width: 700px; margin: auto; margin-bottom: 35px; color: #cbd5e1; }
+    .btn { padding: 15px 28px; border-radius: 8px; font-weight: 500; display: inline-block; }
+    .btn-primary { background: var(--primary); color: #fff; margin-right: 10px; }
+    .btn-secondary { background: transparent; border: 2px solid #fff; color: #fff; }
+
+    section { padding: 90px 20px; }
+    section h3 { font-size: 32px; margin-bottom: 20px; text-align: center; }
+    section p.section-desc { text-align: center; max-width: 700px; margin: auto; color: var(--gray); margin-bottom: 60px; }
+
+    .grid { display: grid; gap: 30px; }
+    .grid-3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+
+    .card { background: #f8fafc; padding: 35px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: 0.3s; }
+    .card:hover { transform: translateY(-6px); }
+    .card i { font-size: 36px; color: var(--primary); margin-bottom: 15px; }
+    .card h4 { margin-bottom: 10px; font-size: 18px; }
+    .card p { color: var(--gray); font-size: 15px; }
+
+    .about { background: #020617; color: #fff; }
+    .about p { color: #cbd5e1; }
+
+    .cta { background: linear-gradient(135deg, var(--primary), var(--accent)); color: #fff; text-align: center; }
+    .cta h3 { margin-bottom: 20px; }
+
+    form { max-width: 600px; margin: auto; display: grid; gap: 15px; }
+    input, select, textarea { padding: 14px; border-radius: 8px; border: 1px solid #cbd5e1; font-family: 'Poppins'; }
+    button { padding: 16px; background: var(--primary); color: #fff; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; }
+
+    footer { background: #020617; color: #94a3b8; text-align: center; padding: 25px; font-size: 14px; }
+
+    .whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: #fff; width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; border-radius: 50%; font-size: 26px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); z-index: 1000; }
+
+    @media(max-width: 768px) {
+      .hero h2 { font-size: 32px; }
+      nav a { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <h1>Clique Mais</h1>
+      <div>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contacto</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h2>Ajudamos negócios de Maputo a crescer, vender mais e se destacar no digital.</h2>
+      <p>Branding, gestão de tráfego pago e estratégias digitais feitas para negócios locais.</p>
+      <a href="#contato" class="btn btn-primary">Falar com a Clique Mais</a>
+      <a href="#contato" class="btn btn-secondary">Solicitar uma proposta</a>
+    </div>
+  </div>
+</header>
+
+<section id="sobre" class="about">
+  <div class="container">
+    <h3>Sobre a Clique Mais</h3>
+    <p class="section-desc">Somos uma agência de marketing digital focada em ajudar negócios locais de Maputo a conquistar mais visibilidade, mais clientes e crescimento real.</p>
+    <p style="text-align:center; max-width:900px; margin:auto;">Conhecemos o mercado moçambicano, entendemos os desafios dos negócios locais e criamos estratégias personalizadas, práticas e orientadas a resultados mensuráveis.</p>
+  </div>
+</section>
+
+<section id="servicos">
+  <div class="container">
+    <h3>Serviços</h3>
+    <p class="section-desc">Soluções estratégicas para fazer o seu negócio crescer no digital.</p>
+
+    <div class="grid grid-3">
+      <div class="card"><i class="fas fa-bullhorn"></i><h4>Crescimento de Branding</h4><p>Posicionamento, identidade e presença digital profissional.</p></div>
+      <div class="card"><i class="fas fa-chart-line"></i><h4>Gestão de Tráfego Pago</h4><p>Facebook Ads, Instagram Ads e Google Ads focados em conversão.</p></div>
+      <div class="card"><i class="fas fa-share-alt"></i><h4>Gestão de Redes Sociais</h4><p>Conteúdo estratégico e gestão profissional das suas redes.</p></div>
+      <div class="card"><i class="fas fa-camera"></i><h4>Criação de Conteúdo</h4><p>Conteúdo visual e textual alinhado ao seu público local.</p></div>
+      <div class="card"><i class="fas fa-lightbulb"></i><h4>Consultoria Digital</h4><p>Planeamento e estratégia digital para negócios locais.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h3>Para Quem é a Clique Mais</h3>
+    <p class="section-desc">Trabalhamos com quem quer crescer de forma profissional.</p>
+    <div class="grid grid-3">
+      <div class="card"><p>✔ Pequenas e médias empresas</p></div>
+      <div class="card"><p>✔ Negócios locais de Maputo</p></div>
+      <div class="card"><p>✔ Empreendedores focados em resultados</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h3>Por que escolher a Clique Mais?</h3>
+    <p class="section-desc">Diferenciais que fazem a diferença.</p>
+    <div class="grid grid-3">
+      <div class="card"><p>🎯 Estratégias focadas em resultado</p></div>
+      <div class="card"><p>📊 Relatórios simples e objetivos</p></div>
+      <div class="card"><p>🤝 Atendimento próximo e personalizado</p></div>
+      <div class="card"><p>📍 Conhecimento do mercado local</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h3>Pronto para levar o seu negócio ao próximo nível?</h3>
+    <a href="#contato" class="btn btn-secondary">Entrar em Contacto</a>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="container">
+    <h3>Contacto</h3>
+    <p class="section-desc">Atendemos negócios em Maputo, Moçambique.</p>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="text" placeholder="Empresa">
+      <input type="text" placeholder="WhatsApp" required>
+      <select>
+        <option>Serviço desejado</option>
+        <option>Tráfego Pago</option>
+        <option>Gestão de Redes</option>
+        <option>Branding</option>
+        <option>Consultoria</option>
+      </select>
+      <button>Enviar</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  © 2026 Clique Mais — Agência de Marketing Digital | Maputo, Moçambique
+</footer>
+
+<a class="whatsapp" href="https://wa.me/258840000000" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+</body>
+</html>
